@@ -35,7 +35,7 @@ itensArray.forEach(function(li, indice){
         console.log(indice + ': ' + li.innerText    );
 });
 */
-
+/*
 let itensImpares = document.querySelectorAll('li:nth-child(odd)');
 let itensPares = document.querySelectorAll('li:nth-child(even)');
 
@@ -52,3 +52,34 @@ itensImpares.forEach(function(li, indice){
 itensPares.forEach(function(li, indice){
     li.style.background = '#E6F2FF';
 })
+*/
+
+/*
+const ITENS = document.querySelector('ul.collection');
+
+console.log(ITENS.children[2]);
+
+
+ITENS.children[2].firstChild.textContent = 'Opa mundão';
+ITENS.children[3].firstChild. data = 'Opa salve querida';
+ITENS.children[4].firstChild. nodeValue = 'Queridao vc ein';
+
+*/
+
+
+/*
+//alerando algum elementos filho através do query selector
+const LABEL = document.querySelector('.card-action')
+
+console.log(LABEL.children[3]);
+
+LABEL.children[3].textContent = 'to com fomeeee'
+*/
+
+const LI = document.createElement('li'); //cria um elemento
+
+LI.className = 'collection-item'; //define a classe css
+
+LI.id = 'novo-item'; // define o ID
+
+LI.setAttribute
